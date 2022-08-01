@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<h1>Gerações desde o descobrimento </h1>
+<br>
+<br>
+<script>
+    function pulaLinha(){
+        document.write("<br><br>");
+}
+
+function mostra(frase){
+
+document.write(frase)
+pulaLinha();
+
+}
+
+var anoAtual = 2022
+var anoBrasil = 1500
+
+var result = anoAtual - anoBrasil
+
+var final =  result / 28
+
+mostra("Quantos anos passaram desde 1500? " + "<br>"+ "Resultado: " + result)
+
+mostra ("Quantas gerações existiram desde 1500? " + "<br>"+  "Resultado: " +  Math.round(final))
+
+
+
+
+
+
+</script>
