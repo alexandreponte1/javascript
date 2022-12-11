@@ -1,0 +1,1 @@
+https://icons.getbootstrap.com/icons/skip-end-fill/ .  (icones)
